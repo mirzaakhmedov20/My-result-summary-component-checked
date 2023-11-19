@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+.container {
+  width: 100%;
+  max-width: 776px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.card__container {
+  border-radius: 32px;
+  background-color: #fff;
+  box-shadow: 0px 30px 60px 0px rgba(61, 108, 236, 0.15);
+  height: 600px;
+  width: 900px;
+  display: flex;
+}
+.right__side {
+  width: 480px;
+  background: linear-gradient(
+    rgba(119, 85, 255, 1),
+    rgba(119, 85, 255, 1),
+    rgba(119, 85, 255, 1)
+  );
+  height: 100%;
+  border-radius: 32px;
+  padding: 38px 54px 46px 54px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right__side--title {
+  font-size: 24px;
+  line-height: 31px;
+  font-weight: 700;
+  color: #cac9ff;
+  text-align: center;
+}
+.oval {
+  background: url(../images/Oval.png);
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 35px;
+}
+.oval__title {
+  color: #fff;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 72px;
+}
+.oval__text {
+  color: #cac9ff;
+  font-size: 18px;
+
+  font-weight: 700;
+}
+.great__text {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  padding-top: 28px;
+}
+.right__side--desc {
+  color: #cac9ff;
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 14px;
+  text-align: center;
+}
+.left-side {
+  padding: 48px 40px 0 40px;
+}
+.left__side--title {
+  color: #303859;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 28px 28px 28px 47px;
+  align-items: center;
+}
+.left__card {
+  width: 288px;
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* nimagadir ishlamadi shu */
+  margin-left: 50px;
+}
+.left__card:not(:last-child) {
+  margin-bottom: 16px;
+}
+.left__card--img {
+  display: flex;
+  align-items: center;
+}
+.card__title {
+  padding-left: 12px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+}
+.score__text {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  color: #303b59;
+  text-align: right;
+  /* font-feature-settings: 'clig' off, 'liga' off;
+font-family: Hanken Grotesk; */
+  /* padding-top: 17px;
+  padding-right: 15px; */
+}
+.score__text span {
+  opacity: 0, 5;
+}
+.light_red--bg {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.95) 100%
+    ),
+    #f55;
+}
+.light_red--bg:hover {
+  cursor: pointer;
+  background-color: rgb(177, 27, 27);
+}
+.light_red {
+  color: #f55;
+}
+.light_orange--bg {
+  border-radius: 12px;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.95) 100%
+    ),
+    #ffb21e;
+}
+.light_orange--bg:hover {
+  cursor: pointer;
+  background-color: #553e14;
+}
+.light_orange {
+  color: #ffb21e;
+}
+.light_green--bg {
+  border-radius: 12px;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.95) 100%
+    ),
+    #00bb8f;
+}
+.light_green--bg:hover {
+  cursor: pointer;
+  background-color: #075744;
+}
+.light_green {
+  color: #00bb8f;
+}
+.light_blue--bg {
+  border-radius: 12px;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.95) 100%
+    ),
+    #1125d6;
+}
+.light_blue--bg:hover {
+  cursor: pointer;
+  background-color: #0c23f4bc;
+}
+.light_blue {
+  color: #1125d6;
+}
+.btn {
+  margin-left: 47px;
+  padding: 16px 0;
+  background-color: #303b59;
+  border: none;
+  width: 288px;
+  border-radius: 128px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.btn:hover {
+  /* cursor: pointer; */
+  background-color: darkblue;
+}
